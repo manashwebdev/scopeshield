@@ -1,0 +1,49 @@
+{
+  "projects": [
+    {
+      "id": "p_atlas",
+      "name": "Atlas Studio Website",
+      "client": "Atlas Studio",
+      "type": "Website",
+      "status": "In progress",
+      "budget": 24000,
+      "dueDate": "2026-10-24",
+      "createdAt": "2026-10-02T10:00:00.000Z",
+      "summary": "A conversion-focused website refresh for a boutique architecture studio.",
+      "deliverables": ["5 responsive pages", "Contact form integration", "SEO essentials", "Two revision rounds"],
+      "exclusions": ["Copywriting beyond supplied content", "Paid stock assets", "Ongoing maintenance"],
+      "changes": [
+        {"id":"c_atlas_1","title":"Add a project case-study page","description":"A dedicated page for the Riverside project with image gallery and project details.","cost":3500,"days":3,"status":"Pending","createdAt":"2026-10-09T12:00:00.000Z"},
+        {"id":"c_atlas_2","title":"Extra mobile navigation animation","description":"Add a custom animated menu transition on mobile.","cost":1200,"days":1,"status":"Approved","createdAt":"2026-10-07T12:00:00.000Z"}
+      ]
+    },
+    {
+      "id": "p_northstar",
+      "name": "Northstar Brand Kit",
+      "client": "Northstar Coffee",
+      "type": "Branding",
+      "status": "In progress",
+      "budget": 12500,
+      "dueDate": "2026-10-18",
+      "createdAt": "2026-10-04T10:00:00.000Z",
+      "summary": "A focused identity system for a neighborhood coffee brand.",
+      "deliverables": ["Primary logo and variations", "Color and type system", "Social avatar set", "Mini brand guide PDF"],
+      "exclusions": ["Packaging production", "Printing costs", "Unlimited revisions"],
+      "changes": [{"id":"c_north_1","title":"Design takeaway cup artwork","description":"Create two print-ready cup layouts for hot and iced drinks.","cost":1800,"days":2,"status":"Pending","createdAt":"2026-10-10T09:00:00.000Z"}]
+    },
+    {
+      "id": "p_orbit",
+      "name": "Orbit Launch Landing Page",
+      "client": "Orbit Learning",
+      "type": "Landing page",
+      "status": "Completed",
+      "budget": 18000,
+      "dueDate": "2026-10-06",
+      "createdAt": "2026-09-20T10:00:00.000Z",
+      "summary": "Launch page for a cohort-based learning product.",
+      "deliverables": ["Single responsive landing page", "Waitlist form", "Analytics setup", "One revision round"],
+      "exclusions": ["Member dashboard", "Course hosting", "Paid advertising"],
+      "changes": [{"id":"c_orbit_1","title":"Add a testimonial carousel","description":"A responsive section featuring learner feedback.","cost":1500,"days":1,"status":"Approved","createdAt":"2026-10-01T10:00:00.000Z"}]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "scopeshield",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ScopeShield — a scope and change-request workspace for freelancers and small studios",
+  "scripts": {
+    "install:all": "npm install --prefix server && npm install --prefix client",
+    "dev": "concurrently \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
+    "start": "npm run start --prefix server",
+    "build": "npm run build --prefix client"
+  },
+  "devDependencies": { "concurrently": "^9.1.2" }
+}
